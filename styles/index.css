@@ -154,7 +154,7 @@ select {
   margin: 0;
   width: auto;
   height: auto;
-  line-height: 1em;
+  line-height: 14px;
 }
 input[type="text"],
 input[type="reset"],
@@ -176,13 +176,13 @@ input[type="file"],
 button,
 textarea,
 select {
-  height: 1em;
+  height: 14px;
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
 }
 input[type="color"] {
-  width: 1em;
+  width: 14px;
 }
 input::-ms-clear {
   display: none;
@@ -294,7 +294,7 @@ body {
   overflow-x: hidden;
 }
 p {
-  margin-bottom: 1em;
+  margin-bottom: 14px;
   line-height: 1.5em;
 }
 p:last-child {
@@ -348,7 +348,7 @@ s:after {
   top: calc(50% - 2px);
   left: -20%;
   width: 140%;
-  height: 0.1em;
+  height: 0.14px;
   transform: rotate(31deg);
   background: #705df2;
 }
@@ -358,7 +358,7 @@ s:before {
   position: absolute;
   top: -120%;
   left: 170%;
-  padding: 0.1em;
+  padding: 0.14px;
   transform: rotate(15deg);
   background: #705df2;
   color: #fff;
@@ -663,7 +663,7 @@ pre[contenteditable] ::-moz-selection {
 .alert .h3,
 .alert .h4,
 .alert .h5 {
-  margin-bottom: 1em;
+  margin-bottom: 14px;
 }
 .alert > .icon {
   position: absolute;
@@ -1614,7 +1614,7 @@ html.is-black-friday .header {
   display: block;
   position: relative;
   text-align: center;
-  line-height: 1em;
+  line-height: 14px;
   font-family: roboto, sans-serif;
   font-weight: 700;
   font-size: 16px;
@@ -1727,7 +1727,7 @@ html.is-black-friday .header {
   }
 }
 .buy .product .block .price {
-  margin-bottom: 0.1em;
+  margin-bottom: 0.14px;
   text-align: center;
   font-size: 64px;
   font-family: roboto, sans-serif;
@@ -2166,7 +2166,7 @@ pre[class*="language-"] {
   background: #222;
 }
 :not(pre) > code[class*="language-"] {
-  padding: 0.1em;
+  padding: 0.14px;
   border-radius: 0.3em;
   white-space: normal;
 }
@@ -2341,11 +2341,11 @@ html.is-theme-abyss .footer {
 }
 @media (max-width: 400px) {
   .footer .column {
-    margin-right: 1em;
+    margin-right: 14px;
   }
 }
 .footer .column .column-title {
-  margin-bottom: 1em;
+  margin-bottom: 14px;
   font-family: roboto;
   font-weight: 700;
   font-size: 18px;
@@ -2448,7 +2448,7 @@ html.is-theme-abyss .footer {
   text-decoration: underline;
 }
 .form fieldset {
-  margin-bottom: 1em;
+  margin-bottom: 14px;
 }
 .form .messages {
   padding-bottom: 2em;
@@ -2473,7 +2473,7 @@ html.is-theme-abyss .footer {
 }
 .form .messages li {
   position: relative;
-  padding-left: 1em;
+  padding-left: 14px;
 }
 .form .messages li:before {
   content: "";
@@ -2531,7 +2531,7 @@ html.is-theme-abyss .footer {
   justify-content: flex-start;
   align-items: center;
   pointer-events: none;
-  line-height: 1.1em;
+  line-height: 1.14px;
 }
 @media (max-width: 600px) {
   .form .field.text label,
@@ -2729,8 +2729,8 @@ html.is-theme-abyss .footer {
   display: block;
   position: relative;
   padding-left: 35px;
-  margin-top: 1em;
-  margin-bottom: 1em;
+  margin-top: 14px;
+  margin-bottom: 14px;
   line-height: 25px;
   cursor: pointer;
   user-select: none;
@@ -2796,7 +2796,7 @@ html.is-theme-abyss .footer {
   font-size: 0.9rem;
 }
 .form .submit {
-  margin-top: 1em;
+  margin-top: 14px;
   height: 60px;
   padding-left: 20px;
   padding-right: 20px;
@@ -4113,7 +4113,7 @@ html.has-touch .player .video-area .direction {
   font-size: 1.65vw;
 }
 .player .video-area .tracks .tracks-text {
-  padding: 0.5em 1em;
+  padding: 0.5em 14px;
   border-radius: 0.5vh;
   background: rgba(0, 0, 0, 0.733);
   transition: opacity 0.15s;
@@ -5376,7 +5376,7 @@ section.start .texts .section-sub-title span {
 }
 @media (max-width: 600px) {
   section.start .texts .trustpilot {
-    margin-bottom: 1em;
+    margin-bottom: 14px;
   }
 }
 section.start .button {
@@ -5461,7 +5461,7 @@ section.start .join-group .gift .gift-icon svg * {
   background: #222;
 }
 .text :not(pre) > code[class*="language-"] {
-  padding: 0.1em;
+  padding: 0.14px;
   border-radius: 0.3em;
   white-space: normal;
 }
@@ -5591,11 +5591,11 @@ section.start .join-group .gift .gift-icon svg * {
 }
 .text ul,
 .text ol {
-  margin-bottom: 1em;
+  margin-bottom: 14px;
 }
 .text li {
   position: relative;
-  padding-left: 1em;
+  padding-left: 14px;
   margin-bottom: 0.25em;
 }
 .text li:before {
@@ -5611,7 +5611,7 @@ section.start .join-group .gift .gift-icon svg * {
 }
 .text li ul {
   margin-top: 0.25em;
-  padding-left: 1em;
+  padding-left: 14px;
 }
 .text p,
 .text li {
@@ -5675,7 +5675,7 @@ section.start .join-group .gift .gift-icon svg * {
   opacity: 1;
 }
 .text .code-toolbar pre[class*="language-"] {
-  margin-bottom: 1em;
+  margin-bottom: 14px;
   outline: none;
   border-radius: 6px;
   border: 1px solid #202020;
@@ -5716,7 +5716,7 @@ section.start .join-group .gift .gift-icon svg * {
 }
 .text .video {
   position: relative;
-  margin-bottom: 1em;
+  margin-bottom: 14px;
   background: #202020;
   border: 4px solid #202020;
   border-radius: 6px;
@@ -5949,7 +5949,7 @@ section.start .join-group .gift .gift-icon svg * {
 .tweet .placeholder .head {
   display: flex;
   align-items: center;
-  margin-bottom: 1em;
+  margin-bottom: 14px;
 }
 .tweet .placeholder .head .user {
   width: 48px;
@@ -5960,20 +5960,20 @@ section.start .join-group .gift .gift-icon svg * {
 }
 .tweet .placeholder .head .titles .name {
   width: 100px;
-  height: 1em;
+  height: 14px;
   background: #eee;
   margin-bottom: 4px;
 }
 .tweet .placeholder .head .titles .sub-name {
   width: 120px;
-  height: 1em;
+  height: 14px;
   background: #eee;
 }
 .tweet .placeholder .text {
-  margin-bottom: 1em;
+  margin-bottom: 14px;
 }
 .tweet .placeholder .text .text-line {
-  height: 1em;
+  height: 14px;
   background: #eee;
   margin-bottom: 4px;
 }
@@ -5985,7 +5985,7 @@ section.start .join-group .gift .gift-icon svg * {
 }
 .tweet .placeholder .pictures {
   display: flex;
-  margin-bottom: 1em;
+  margin-bottom: 14px;
 }
 .tweet .placeholder .pictures .picture {
   width: 80px;
@@ -6003,7 +6003,7 @@ section.start .join-group .gift .gift-icon svg * {
   height: 0.8em;
   padding: 10px;
   border: 2px solid #fff;
-  border-radius: 1em;
+  border-radius: 14px;
   opacity: 0.5;
   transition: opacity 0.15s;
   will-change: opacity;
@@ -6083,7 +6083,7 @@ section.start .join-group .gift .gift-icon svg * {
 .page.account .page-content .h3,
 .page.account .page-content .h4,
 .page.account .page-content .h5 {
-  margin-bottom: 1em;
+  margin-bottom: 14px;
 }
 .page.account .content-section {
   margin-bottom: 4em;
@@ -6254,7 +6254,7 @@ section.start .join-group .gift .gift-icon svg * {
 .page.certificateQuiz .page-content .h3,
 .page.certificateQuiz .page-content .h4,
 .page.certificateQuiz .page-content .h5 {
-  margin-bottom: 1em;
+  margin-bottom: 14px;
 }
 .page.certificateQuiz .sidebar {
   width: 340px;
@@ -7009,7 +7009,7 @@ section.start .join-group .gift .gift-icon svg * {
 }
 .page.challenges .instructions .section-title {
   width: 300px;
-  margin-bottom: 1em;
+  margin-bottom: 14px;
   font-family: roboto, sans-serif;
   font-size: 48px;
   font-weight: 800;
@@ -7603,7 +7603,7 @@ section.start .join-group .gift .gift-icon svg * {
   justify-content: center;
 }
 .page.discord .leaderboard .title {
-  margin-bottom: 1em;
+  margin-bottom: 14px;
 }
 .page.discord .leaderboard .inner {
   display: flex;
@@ -9354,7 +9354,7 @@ section.start .join-group .gift .gift-icon svg * {
   margin-bottom: 2.5vh;
   font-size: 64px;
   font-weight: 800;
-  line-height: 1em;
+  line-height: 14px;
   letter-spacing: -0.02em;
 }
 @media (max-width: 1600px) {
@@ -9554,7 +9554,7 @@ section.start .join-group .gift .gift-icon svg * {
   }
 }
 .page.home section.presentation .section-title {
-  margin-bottom: 1em;
+  margin-bottom: 14px;
 }
 .page.home section.presentation .section-title strong {
   color: #705df2;
@@ -9823,7 +9823,7 @@ section.start .join-group .gift .gift-icon svg * {
   }
 }
 .page.home section.table-of-content .intro .section-title {
-  margin-bottom: 1em;
+  margin-bottom: 14px;
 }
 .page.home section.table-of-content .intro p {
   opacity: 0.8;
@@ -11104,7 +11104,7 @@ html.has-touch .page.home section.bruno-simon .projects .item .label {
   }
 }
 .page.home section.faq .question {
-  margin-bottom: 1em;
+  margin-bottom: 14px;
   font-family: roboto;
   font-weight: 800;
   font-size: 26px;
@@ -11145,7 +11145,7 @@ html.has-touch .page.home section.bruno-simon .projects .item .label {
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  margin-top: 1em;
+  margin-top: 14px;
 }
 .page.join .page-content .buttons .button:last-child {
   margin-right: 0;
@@ -11166,7 +11166,7 @@ html.has-touch .page.home section.bruno-simon .projects .item .label {
 }
 .page.join .page-content .form .field.checkbox .label,
 .page.join .page-content .form .field.radio .label {
-  margin-bottom: 1.1em;
+  margin-bottom: 1.14px;
 }
 .page.join .page-content .form .field.checkbox a,
 .page.join .page-content .form .field.radio a {
@@ -11211,7 +11211,7 @@ html.has-touch .page.home section.bruno-simon .projects .item .label {
 .page.join .loader .loading-label {
   opacity: 0.35;
   font-size: 0.75rem;
-  line-height: 1em;
+  line-height: 14px;
   margin-bottom: 8px;
 }
 .page.join .loader .dots {
@@ -11245,7 +11245,7 @@ html.has-touch .page.home section.bruno-simon .projects .item .label {
   display: block;
 }
 .page.join .step-1 .stripe-message {
-  margin-top: 1em;
+  margin-top: 14px;
   text-align: right;
   font-size: 0.75rem;
 }
@@ -11285,7 +11285,7 @@ html.has-touch .page.home section.bruno-simon .projects .item .label {
 }
 .page.join .step-1 .secure-payment {
   display: flex;
-  margin-top: 1em;
+  margin-top: 14px;
   font-size: 0.75rem;
   color: #32ffce;
   justify-content: flex-end;
@@ -11715,7 +11715,7 @@ html.has-no-user .page.lessons .lessons-list .chapter {
   font-weight: 700;
   font-size: 1.75rem;
   color: #705df2;
-  line-height: 1em;
+  line-height: 14px;
   margin-bottom: 0.15em;
 }
 .page.lessons .lessons-list .chapter .progress {
@@ -12540,7 +12540,7 @@ html.has-user .page.lessons .lessons-list .lesson .status .icon {
   left: -1px;
   display: block;
   width: 11px;
-  height: calc(1em + 4px);
+  height: calc(14px + 4px);
   border-left: 2px solid #555;
   border-bottom: 2px solid #555;
   border-bottom-left-radius: 8px;
@@ -12732,8 +12732,8 @@ html.has-user .page.lessons .lessons-list .lesson .status .icon {
   }
 }
 .page.lessons .main .content .text:not(.links) {
-  margin-top: 1em;
-  margin-bottom: 4em;
+  margin-top: 16px;
+  margin-bottom: 16px;
 }
 .page.lessons .main .content .text:not(.links) > h2,
 .page.lessons .main .content .text:not(.links) > h3,
@@ -12856,7 +12856,7 @@ html.has-user .page.lessons .lessons-list .lesson .status .icon {
 }
 .page.lessons .main .details .informations .current-lesson .label {
   margin-bottom: 0.25em;
-  font-size: 1.2em;
+  font-size: 14px;
   font-family: roboto, sans-serif;
   font-weight: 500;
   letter-spacing: -0.05em;
@@ -12961,7 +12961,7 @@ html.has-user .page.lessons .lessons-list .lesson .status .icon {
   .sibling-title {
   display: inline-block;
   vertical-align: middle;
-  font-size: 1.2em;
+  font-size: 14px;
   font-family: roboto, sans-serif;
   font-weight: 700;
   letter-spacing: -0.05em;
@@ -13007,7 +13007,7 @@ html.has-user .page.lessons .lessons-list .lesson .status .icon {
   }
 }
 .page.lessons .main .details .aside .title {
-  margin-bottom: 1em;
+  margin-bottom: 14px;
 }
 .page.lessons .main .details .aside .title .icon {
   display: inline-block;
@@ -13027,7 +13027,7 @@ html.has-user .page.lessons .lessons-list .lesson .status .icon {
   display: inline-block;
   vertical-align: middle;
   margin-left: 10px;
-  font-size: 1.2em;
+  font-size: 14px;
   font-family: roboto, sans-serif;
   font-weight: 700;
   letter-spacing: -0.05em;
@@ -13036,7 +13036,7 @@ html.has-user .page.lessons .lessons-list .lesson .status .icon {
   margin-bottom: 1.25em;
 }
 .page.lessons .main .details .aside .files .info-button {
-  margin-left: 1em;
+  margin-left: 14px;
 }
 @media (max-width: 1080px) {
   .page.lessons .main .details .aside .files .button {
@@ -13121,8 +13121,8 @@ html.has-user .page.lessons .lessons-list .lesson .status .icon {
   top: 3px;
   right: 0;
   width: 50px;
-  height: 1em;
-  line-height: 1em;
+  height: 14px;
+  line-height: 14px;
   cursor: pointer;
   white-space: nowrap;
 }
@@ -13259,7 +13259,7 @@ html.has-user .page.lessons .lessons-list .lesson .status .icon {
 }
 .page.lessons .end .sur-title {
   margin-bottom: 0.25em;
-  font-size: 1.2em;
+  font-size: 14px;
   font-family: roboto, sans-serif;
   font-weight: 500;
   letter-spacing: -0.05em;
@@ -13833,7 +13833,7 @@ html.has-user .page.lessons .lessons-list .lesson .status .icon {
 .page.selection .instructions .section-title {
   position: relative;
   width: 300px;
-  margin-bottom: 1em;
+  margin-bottom: 14px;
   font-family: roboto, sans-serif;
   font-size: 48px;
   font-weight: 800;
@@ -13986,7 +13986,7 @@ html.has-user .page.lessons .lessons-list .lesson .status .icon {
   width: auto;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 1em;
+  margin-bottom: 14px;
   text-align: center;
 }
 @media (max-width: 1600px) {
